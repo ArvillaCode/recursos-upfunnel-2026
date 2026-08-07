@@ -1,0 +1,5 @@
+node_modules/
+playwright-report/
+test-results/
+n8n-guia-skills.json
+plantilla-material-clase.html
