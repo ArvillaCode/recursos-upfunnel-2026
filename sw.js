@@ -1,11 +1,11 @@
-const CACHE_NAME = 'upfunnel-recursos-v2';
+const CACHE_NAME = 'upfunnel-recursos-brand-2-1';
 const APP_SHELL = [
   './',
   './index.html',
   './manifest.json',
   './inter-latin.woff2',
-  './logo-upfunnel-160.webp',
-  './logo-upfunnel-320.webp',
+  './logo-upfunnel.svg',
+  './upfunnel-symbol.svg',
   './snaprec-cover-480.webp',
   './teleprompter-cover-480.webp',
   './gabriel-320.webp',
@@ -53,3 +53,4 @@ self.addEventListener('fetch', function (event) {
     return cached || fetch(request);
   }));
 });
+
